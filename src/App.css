@@ -1,0 +1,15 @@
+body {
+    background-color: salmon;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.top {
+    height: 100vh;
+}
