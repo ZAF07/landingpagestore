@@ -13,3 +13,26 @@ ul {
 .top {
     height: 100vh;
 }
+
+.navigation-bar {
+    background-color: salmon;
+}
+
+#no-empty {
+    display: none;
+}
+#show-error {
+    display: block;
+    opacity: .7;
+}
+
+.fade {
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    from {opacity: .7;}
+    to {opacity: .0;
+        display: none;    
+    }
+}
