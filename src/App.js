@@ -6,6 +6,11 @@ import Input from './components/Input';
 import './App.css';
 
 function App() {
+
+  // Here we fetch data from an API to use in our app
+  // Data has to be fetched in the Parent component and passed on 
+  // to the child components via PROPS
+
   const [items, addTask] = useState([
   ]);
 
@@ -85,5 +90,3 @@ function App() {
 };
 
 export default App;
-
-// This is the incomplete work for CSS CLASS -> css-err-class
